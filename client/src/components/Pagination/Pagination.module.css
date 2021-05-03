@@ -1,0 +1,56 @@
+.pageList {
+	width: 100%;
+	text-align: center;
+}
+
+.pageItem {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.pageItem:nth-child(n + 2) {
+	margin-left: 5px;
+}
+
+.pageLink {
+	display: inline-block;
+	width: 100%;
+	padding: 6px 14px;
+	text-decoration: none;
+	text-align: center;
+	color: rgb(0, 0, 255);
+	border: 1px solid rgb(0, 0, 255);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.pageLink:hover,
+.pageLinkSelected {
+	background-color: #00f3bb;
+	border: 1px solid #00f3bb;
+	color: rgb(0, 0, 255);
+}
+
+.paginationPosition {
+	position: relative;
+	width: 100%;
+	min-height: 30px;
+}
+
+.imageFooterLeft {
+	position: absolute;
+	width: 25%;
+	bottom: -33px;
+	left: 0;
+	z-index: -10;
+}
+
+.imageFooterRight {
+	position: absolute;
+	width: 20%;
+	bottom: -33px;
+	right: 0;
+	z-index: -10;
+}

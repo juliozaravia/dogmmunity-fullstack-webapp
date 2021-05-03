@@ -1,0 +1,47 @@
+.listItem {
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 20px;
+	border: 1px solid #eeeeee;
+	background-color: white;
+}
+
+.listItem:nth-child(odd) {
+	margin-right: 2%;
+}
+
+.listItem:nth-child(n + 3) {
+	margin-top: 25px;
+}
+
+.listItem:hover {
+	box-shadow: 1px 1px 8px 1px rgba(179, 179, 179, 0.75);
+	-webkit-box-shadow: 1px 1px 8px 1px rgba(179, 179, 179, 0.75);
+	-moz-box-shadow: 1px 1px 8px 1px rgba(179, 179, 179, 0.75);
+}
+
+.emptySearch {
+	text-align: center;
+	background-color: white;
+	padding: 30px 0;
+	color: rgb(0, 0, 255);
+	font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.dogCounter {
+	padding: 3px 7px;
+	display: inline-block;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: rgb(0, 0, 255);
+	border: 1px solid rgb(0, 0, 255);
+	font-family: "Montserrat", Arial, Helvetica, sans-serif;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	letter-spacing: 0.6px;
+}

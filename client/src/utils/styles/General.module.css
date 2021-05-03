@@ -1,0 +1,181 @@
+.defaultTextCenter {
+	text-align: center;
+}
+
+.minimalSeparatorTop {
+	margin-top: 10px;
+}
+
+.normalSeparatorTop {
+	margin-top: 20px;
+}
+
+.maximalSeparatorTop {
+	margin-top: 30px;
+}
+
+.buttonFull {
+	background-color: #00f3bb;
+	padding: 10px 30px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-decoration: none;
+	color: #060a24;
+	display: inline-block;
+	border: 1px solid #00f3bb;
+}
+
+.buttonMenu {
+	background-color: #00f3bb;
+	padding: 5px 40px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: rgb(0, 0, 255);
+	display: inline-block;
+	border: 1px solid #00f3bb;
+}
+
+.buttonWelcome {
+	font-size: 1.2rem;
+	background-color: #00f3bb;
+	padding: 12px 30px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-decoration: none;
+	color: #060a24;
+	border: 1px solid #00f3bb;
+}
+
+.buttonSubmit {
+	border: none;
+	background-image: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	cursor: pointer;
+	background-color: #00f3bb;
+	border: 1px solid #00f3bb;
+	padding: 10px 30px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+	color: rgb(0, 0, 255);
+}
+
+.buttonWelcome:hover,
+.buttonMenu:hover,
+.buttonSubmit:hover,
+.buttonFull:hover {
+	color: white;
+	background-image: linear-gradient(225deg, #0000fe 0%, #00f0b8 100%);
+}
+
+.outerContainer {
+	font-size: 0;
+}
+
+.innerContainer {
+	font-size: 1rem;
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.subMinimalPadding {
+	padding: 15px 0;
+}
+
+.minimalPadding {
+	padding: 20px 0 25px;
+}
+
+.normalPadding {
+	padding: 30px 0;
+}
+
+.inputLabel {
+	cursor: pointer;
+	color: rgb(0, 0, 255);
+	display: block;
+	margin-bottom: 5px;
+}
+
+.selector {
+	width: 100%;
+	height: 35px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: white;
+	border: 1px solid #bbbbbb;
+	color: #444444;
+	padding: 0 10px;
+}
+
+.selector:hover {
+	cursor: pointer;
+}
+
+.blockSeparator {
+	border: 1px solid #e6e6e6;
+}
+
+.backgroundGrey {
+	background-color: #f0f0f0;
+}
+
+.backgroundAqua {
+	background-color: #00f3bb;
+}
+
+.backgroundBlue {
+	background: rgb(0, 0, 255);
+	background: -moz-linear-gradient(135deg, rgba(0, 0, 255, 1) 0%, rgba(0, 0, 163, 1) 100%);
+	background: -webkit-linear-gradient(135deg, rgba(0, 0, 255, 1) 0%, rgba(0, 0, 163, 1) 100%);
+	background: linear-gradient(135deg, rgba(0, 0, 255, 1) 0%, rgba(0, 0, 163, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0000ff",endColorstr="#0000a3",GradientType=1);
+	color: rgb(147, 147, 255);
+}
+
+.specialLabel {
+	font-family: "Roboto", Arial, Helvetica, sans-serif;
+	font-weight: 700;
+}
+
+.breadcrumbsLink {
+	text-decoration: none;
+	color: rgb(0, 0, 255);
+	background-color: #00f3bb;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 4px 10px;
+}
+
+.showBlock {
+	display: block;
+	visibility: visible;
+}
+
+.hiddenBlock {
+	display: none;
+	visibility: hidden;
+}
+
+.loadingBlock {
+	width: 60%;
+	height: 300px;
+	padding: 130px 0;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+	color: rgb(0, 0, 255);
+	font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}

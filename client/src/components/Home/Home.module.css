@@ -1,0 +1,13 @@
+.control {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.controlLeft {
+	width: 36%;
+}
+
+.controlRight {
+	width: 60%;
+	margin-left: 4%;
+}

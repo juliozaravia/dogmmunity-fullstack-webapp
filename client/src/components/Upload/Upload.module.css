@@ -1,0 +1,114 @@
+.itemHalf {
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+}
+
+.itemDescription {
+	padding: 30px 50px 40px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: rgb(0, 0, 255);
+	background: -moz-linear-gradient(135deg, rgba(0, 0, 255, 1) 0%, rgba(0, 0, 163, 1) 100%);
+	background: -webkit-linear-gradient(135deg, rgba(0, 0, 255, 1) 0%, rgba(0, 0, 163, 1) 100%);
+	background: linear-gradient(135deg, rgba(0, 0, 255, 1) 0%, rgba(0, 0, 163, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0000ff",endColorstr="#0000a3",GradientType=1);
+}
+
+.formTitle {
+	font-family: "Montserrat", Arial, Helvetica, sans-serif;
+	color: #00f3bb;
+	font-size: 2rem;
+	text-transform: capitalize;
+}
+
+.inputForm,
+.buttonForm {
+	border: none;
+	background-image: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.inputForm {
+	width: 100%;
+	height: 35px;
+	background-color: white;
+	padding: 0 10px;
+	color: #444444;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.labelCreate,
+.inputCreate {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.labelCreate {
+	width: 32%;
+	height: 35px;
+	padding-top: 8px;
+}
+
+.inputCreate {
+	width: 68%;
+}
+
+.labelForm {
+	color: white;
+	cursor: pointer;
+	font-weight: 700;
+	display: block;
+	font-size: 1.1rem;
+}
+
+.colorAqua {
+	color: #00f3bb;
+}
+
+.temperamentBlock {
+	padding: 7px 10px;
+	background-color: #dddddd;
+	display: inline-block;
+	width: 32%;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.temperamentBlock:nth-child(n + 4) {
+	margin-top: 10px;
+}
+
+.temperamentBlock:not(:nth-child(3n + 1)) {
+	margin-left: 2%;
+}
+
+.okStatusMessage {
+	display: block;
+	visibility: visible;
+	background-color: rgb(5, 139, 66);
+	color: white;
+	text-align: center;
+	padding: 3px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+.hiddenBlock {
+	display: none;
+	visibility: hidden;
+}

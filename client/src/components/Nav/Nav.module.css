@@ -1,0 +1,53 @@
+.menu {
+	font-size: 0;
+}
+
+.menuBlock {
+	font-size: 1rem;
+}
+
+.menuBlockLogo,
+.menuBlockNavigation {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.menuBlockLogo {
+	width: 30%;
+}
+
+.menuBlockNavigation {
+	width: 70%;
+	color: white;
+	text-align: right;
+}
+
+.menuList {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.menuItem {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.menuLink {
+	color: white;
+	text-decoration: none;
+}
+
+.specialTextLogo {
+	color: #00f3bb;
+	border-top: 3px solid #00f3bb;
+}
+
+.logoLink {
+	text-decoration: none;
+}
+
+.activeMenu {
+	color: white;
+	background-image: linear-gradient(225deg, #0000fe 0%, #00f0b8 100%);
+}

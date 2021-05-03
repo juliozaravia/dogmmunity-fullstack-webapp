@@ -1,0 +1,17 @@
+.controlList {
+	width: 100%;
+}
+
+.controlItem {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.controlPrincipal {
+	width: 40%;
+}
+
+.controlSecondary {
+	width: 28%;
+	margin-left: 2%;
+}
